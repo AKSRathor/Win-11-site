@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    top: 0px;
+    width: 99%;
+    justify-content: center;
+}
+.border_en{
+    border: 2px solid;
+}
+.menu {
+    border: 2px solid;
+    bottom: 0px;
+    position: absolute;
+}
+#taskbar{
+    right: 0px;
+}
+body{
+    background-image: url('source/bg.jpeg');
+    background-size: cover;
+}
+#menu_left {
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.start {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    align-items: center;
+    margin: -111px 0px;
+    
+}
+#strt img {
+    height: 435px;
+    margin: 65px -197px;
+    position: absolute;
+    bottom: 0px;
+}
+.gayab {
+    /* display: none; */
+    transform: translate(0px, 843px) scale(0);
+    position: relative;
+}
+
+#strimg{
+    
+    transition: all 0.7s ease-out;
+}
